@@ -1,0 +1,32 @@
+.header_div {
+    background-color: yellow;
+}
+
+.heading {
+    width: 100%;
+    margin-top: 0;
+    height: 6%;
+    font-size: 20px;
+    border-radius: 0%;
+}
+
+#subtitle {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.button_div {
+    margin-top: 30px;
+}
+
+#fractions, #test {
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: cyan;
+    font-size: 20px;
+}
+
+#fractions {
+    text-align: left;
+    margin-left: 30px;
+}

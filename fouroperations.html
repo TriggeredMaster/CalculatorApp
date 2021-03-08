@@ -1,0 +1,45 @@
+<head>
+    <title>Simple Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="testcss.css">
+
+    <script src="testmain.js"></script>
+
+</head>
+
+<body style="background-color: springgreen;">
+    <center>
+        <div class="header_div">
+            <h1 class="btn btn-info heading">Simple Calculator</h1>
+            <br>
+            <h3 id="subtitle" class="btn btn-warning">Press on the dropdown with any four operations you want to
+                calculate with</h3>
+        </div> <br><br><br>
+        <input type="number" id="numone" placeholder="Write the first number"><br> <br>
+        <label id="operation"></label><br> <br>
+        <input type="number" id="numtwo" placeholder="Write the second number"><br><br><br>
+        <div class="dropdown">
+
+            <button onclick="dropdown()" class="dropbtn">Choose the operation you want to calculate with by clicking
+                me</button>
+            <div id="Dropdown" class="dropdown-content">
+                <a href="#Addition" onclick="addition()">Addition</a>
+                <a href="#Subtraction" onclick="subtraction()">Subtraction</a>
+                <a href="#Multiplication" onclick="multiplication()">Multiplication</a>
+                <a href="#Division" onclick="division()">Division</a>
+            </div>
+        </div>
+        <br><br><br>
+        <button id="calculate" onclick="calculate()">Calculate</button>
+        <br><br><br>
+        <label id="result"></label>
+        <br><br>
+        <button id="Go" onclick="Go()"></button><br><br>
+        <button id="back" onclick="back()">Reload</button> <br> <br>
+        <button id="back1" onclick="back1()">Back</button>
+    </center>
+</body>
